@@ -32,3 +32,27 @@ No importa si es una tarde de verano o un día cualquiera, un buen ceviche siemp
 [Youtube link](https://www.youtube.com/watch?v=oRw2YNE5kLU&ab_channel=Abelca)
 
 <img src="https://www.elespectador.com/resizer/v2/2AVD5Z6Y2ZFWHETPQGCPLMNK4A.jpg?auth=82394bc07906097860918c7a77b6320dbba80a4b67cc293a909e810ae6941229&width=920&height=613&smart=true&quality=60">
+
+## Bitacora Tecnica 
+
+Documentare las etiquetas HTML y propiedades CSS que más me han gustado:
+
+**Etiquetas HTML semánticas:**
+
+- `<header>`
+- `<main>`
+- `<section>`
+- `<article>`
+- `<nav>`
+- `<footer>`
+
+**Propiedades de CSS:**
+
+- `color: blue`
+- `background-color: #f0f0f0`
+- `text-align: center`
+- `margin: 10px`
+- `padding: 15px`
+- `border-radius: 5px`
+
+
