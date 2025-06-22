@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links Profile</title>
+    <style>
+        body {
+            background-color: #151415;
+            font-family: 'Inter', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            border: 1px solid #2a2a2a;
+            width: 360px;
+            background-color: #1e1e1f;
+            border-radius: 18px;
+            padding: 24px;
+            text-align: center;
+        }
+        .profile-img-container {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 24px;
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #c8e866;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #bcc1c5;
+            margin-bottom: 24px;
+        }
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .social-btn {
+            padding: 14px 0;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 15px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        #github { 
+            background-color: #323332;
+            border: 1px solid #323332;
+        }
+        
+        #frontend-mentor {
+            background-color: #323332;
+            color: white;
+            border: 1px solid #323332;
+        }
+        
+        #linkedin { 
+            background-color: #323332;
+            border: 1px solid #323332;
+        }
+        
+        #twitter { 
+            background-color: #323332;
+            border: 1px solid #323332;
+        }
+        
+        #instagram {
+            background: #323332;
+            border: 1px solid #323332;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Imagen circular -->
+        <div class="profile-img-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ440ErZ4cFq9_P-YyCDW4ySVY4BZoFx42_Ag&s" alt="Profile">
+        </div>
+
+        <h1>Ronnie Coleman</h1>
+        <h2>Monroe, Luisiana, Estados Unidos</h2>
+        <p>"Front-end developer and avid reader"</p>
+
+        <div class="social-buttons">
+            <button class="social-btn" id="github">GitHub</button>
+            <button class="social-btn" id="frontend-mentor">Frontend Mentor</button>
+            <button class="social-btn" id="linkedin">LinkedIn</button>
+            <button class="social-btn" id="twitter">Twitter</button>
+            <button class="social-btn" id="instagram">Instagram</button>
+        </div>
+    </main>
+</body>
+</html>
